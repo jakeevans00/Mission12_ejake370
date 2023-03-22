@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
   
+//Array with JSON styled elements
 const teams =  [ 
   {"tid": 159, "cid": 0, "did": 0, "school": "Boston College", "name": "Eagles", "abbrev": "BC", "pop": 161, "city": "Chestnut Hill", "state": "MA", "latitude": 42.330, "longitude": -71.166},
   {"tid": 105, "cid": 0, "did": 0, "school": "Clemson", "name": "Tigers", "abbrev": "CLEM", "pop": 215, "city": "Clemson", "state": "SC", "latitude": 34.678, "longitude": -82.839},
@@ -324,10 +325,13 @@ const teams =  [
   {"tid": 287, "cid": 19, "did": 39, "school": "Houston Baptist", "name": "Huskies", "abbrev": "HBU", "pop": 33, "city": "Greater Sharpstown", "state": "TX", "latitude": 29.694 , "longitude": -95.515}  
 ];
 
+//Header called in the App() function
 function Welcome() {
   return(<h1>Welcome to March Madness Team Review!!</h1>);
 }
 
+
+//Creates Team cards 
 class Team extends React.Component < {school: string, name: string, city: string, state: string} > {
   render() {
 
@@ -345,6 +349,7 @@ class Team extends React.Component < {school: string, name: string, city: string
   }
 }
 
+//This function creates the overarching div containing the Team cards
 function ListTeams() {
   return (
     <div>
@@ -353,6 +358,7 @@ function ListTeams() {
   );
 }
 
+//The main function that calls the others
 function App() {
   return (
     <div className="App">
