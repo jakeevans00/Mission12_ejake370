@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{B2A5230B-0AA5-4546-9D77-AC554BCDFA67}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission12_ejake370/Controllers/WeatherForecastController.cs">
+    <Files>
+      <File FileName="Mission12_ejake370/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="Mission12_ejake370/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+      <File FileName="Mission12_ejake370/Program.cs" Line="1" Column="1" />
+      <File FileName="Mission12_ejake370/WeatherForecast.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission12_ejake370" expanded="True">
+            <Node name="Mission12_ejake370" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="WeatherForecastController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Mission12__ejake370 FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>
